@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="utf-8">
-<title>Bitcoin address generator</title>
+<title>Bitweb address generator</title>
 
 <style>
 
@@ -784,17 +784,17 @@ li
         <div id="page-beginners-guide" style="display: none; width: 80%; padding-left: 10px;">
             <div class="title">Beginner's guide</div>
             <br>
-            <div class="title-small">What is Bitcoin?</div>
-            <div>Bitcoin is a peer-to-peer electronic cash system. Bitcoin allows its users to send money over the internet, without any restrictions. It is decentralized, open source, and gives users full control over their money. For more information, visit <a href="https://bitwebcore.org">https://bitwebcore.org</a>.</div>
+            <div class="title-small">What is Bitweb?</div>
+            <div>Bitweb is a peer-to-peer electronic cash system. Bitweb allows its users to send money over the internet, without any restrictions. It is decentralized, open source, and gives users full control over their money. For more information, visit <a href="https://bitwebcore.org">https://bitwebcore.org</a>.</div>
             <br>
-            <div class="title-small">What is a bitcoin address, and what is a private key?</div>
-            <div>To receive bitcoin, you need a bitcoin address. Anyone who knows your bitcoin address can send bitcoins to you. To spend money from a bitcoin address, you need its private key. As its name suggests, you must keep your private key safe, because anyone who knows your private key, can spend your bitcoins. Your address however can be shared to anyone, as they can only send you money, but they cannot spend from it.<br>The address and the private key are related in a mathematical way, so the address can be calculated from the private key, but it is impossible to calculate the private key the your address.</div>
+            <div class="title-small">What is a bitweb address, and what is a private key?</div>
+            <div>To receive bitweb, you need a bitweb address. Anyone who knows your bitweb address can send bitwebs to you. To spend money from a bitweb address, you need its private key. As its name suggests, you must keep your private key safe, because anyone who knows your private key, can spend your bitwebs. Your address however can be shared to anyone, as they can only send you money, but they cannot spend from it.<br>The address and the private key are related in a mathematical way, so the address can be calculated from the private key, but it is impossible to calculate the private key the your address.</div>
             <br>
             <div class="title-small">What is a paper wallet?</div>
-            <div>A paper wallet is a bitcoin address and the private key printed to paper. Paper wallets are a safe way to store bitcoin, as they are offline, so they cannot be stolen by hackers. However, you should be careful when making paper wallets, so no one can actually steal them. You can read more at the "Security tips" section on this site.</div>
+            <div>A paper wallet is a bitweb address and the private key printed to paper. Paper wallets are a safe way to store bitweb, as they are offline, so they cannot be stolen by hackers. However, you should be careful when making paper wallets, so no one can actually steal them. You can read more at the "Security tips" section on this site.</div>
             <br>
             <div class="title-small">What is a legacy address, and what is a segwit address (and bech32 segwit address)?</div>
-            <div>Legacy address is the default bitcoin address format, they start with the character 1. Segwit addresses use the "<a href="https://en.bitcoin.it/wiki/Segregated_Witness">segregated witness</a>" feature, allowing users to send transactions for a lower fee. It is recommended to use segwit addresses over legacy addresses. Segwit addresses start with the character 3. Bech32 is a new address format for native segwit addresses, but they are not widely supported yet.</div>
+            <div>Legacy address is the default bitweb address format, they start with the character 1. Segwit addresses use the "<a href="https://en.bitcoin.it/wiki/Segregated_Witness">segregated witness</a>" feature, allowing users to send transactions for a lower fee. It is recommended to use segwit addresses over legacy addresses. Segwit addresses start with the character 3. Bech32 is a new address format for native segwit addresses, but they are not widely supported yet.</div>
             <br>
             <div class="title-small">What is Bip38 encryption?</div>
             <div><a href="https://github.com/bitcoin/bips/blob/master/bip-0038.mediawiki">Bip38</a> encryption allows you to protect your paper wallet with a password, so if your paper wallet is stolen, or its private key is exposed, your paper wallet will still be safe. However, if you use bip38 encryption, you must remember the password very well, because if you forget the password, the paper wallet will be as worthless as if you lost the private key. Bip38 was designed to resist brute-force attacks, that's why it's practically impossible to recover the wallet if the password is forgotten. You can unlock a bip38 encrypted wallet on the "Address details" section of this site.</div>
@@ -807,13 +807,13 @@ li
                 <li>If possible, use a bootable usb drive / "live cd" instead of your regular OS, so there is no chance that malware on your system steals your funds.</li>
                 <li>Use a "dumb" / old printer, as newer "smart" printers may save your private keys in their cache or on their internal storage, or their firmware could be hacked (this is unlikely though).</li>
                 <li>Use laser printer, because it is more resistant to water. You should always keep your paper wallets in a waterproof place. If you only have an inkjet printer, you can put the paper wallets in a plastic bag, so it's less likely that they get wet.</li>
-                <li>Before sending big amounts of bitcoin to paper wallets, make sure that you know how to withdraw funds from it first. You should make some test wallets, then send 1-2 cents worth of money to them, then withdraw it. For bip38 encrypted wallets, always test if you can unlock them before sending bitcoins to it.</li>
+                <li>Before sending big amounts of bitweb to paper wallets, make sure that you know how to withdraw funds from it first. You should make some test wallets, then send 1-2 cents worth of money to them, then withdraw it. For bip38 encrypted wallets, always test if you can unlock them before sending bitwebs to it.</li>
                 <li>After you withdrew the money from a paper wallet, it should be never used again.</li>
             </ul>
         </div>
     </div>
     <div id="bip38-info">
-        <div id="bip38-info-content">Bip38 encryption allows you to protect your paper wallet with a password, giving it more security.<br>If your paper wallet is stolen or the private key is exposed, your funds will still be safe, because it cannot be unlocked without the password.<br><br><div style="color: #ff0000;">However, if you forget the password, there is absolutely no way to recover the wallet, this means that your funds will be PERMANENTLY LOST.<br>Always make sure that you can decrypt the wallet before sending any bitcoins to it!</div><br><div style="margin-bottom: 70px;">Note that other applications may only support decryption of legacy addresses. To decrypt segwit addresses, you most likely need to use this site. Alternatively, you could decrypt the private key elsewhere, then generate the segwit address corresponding to that private key.</div><button style="position: absolute; width: 300px; right: 0px; bottom: 0px; margin: 30px;" onclick="document.getElementById('bip38-info').style.display='none'">Got it</button></div>
+        <div id="bip38-info-content">Bip38 encryption allows you to protect your paper wallet with a password, giving it more security.<br>If your paper wallet is stolen or the private key is exposed, your funds will still be safe, because it cannot be unlocked without the password.<br><br><div style="color: #ff0000;">However, if you forget the password, there is absolutely no way to recover the wallet, this means that your funds will be PERMANENTLY LOST.<br>Always make sure that you can decrypt the wallet before sending any bitwebs to it!</div><br><div style="margin-bottom: 70px;">Note that other applications may only support decryption of legacy addresses. To decrypt segwit addresses, you most likely need to use this site. Alternatively, you could decrypt the private key elsewhere, then generate the segwit address corresponding to that private key.</div><button style="position: absolute; width: 300px; right: 0px; bottom: 0px; margin: 30px;" onclick="document.getElementById('bip38-info').style.display='none'">Got it</button></div>
     </div>
     <div id="randomness-overlay">
         <div id="randomness-overlay-2" style="display: none; position: absolute; width: 100%; height: 100%;">
