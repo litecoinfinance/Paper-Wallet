@@ -1,5 +1,5 @@
-# Bitweb address generator
-Available at https://paperwallet.bitwebcore.org
+# LitecoinFinance address generator
+Available at https://ltfnpw.scalaris.org
 
 ## Features:
 *  Create bech32, segwit (p2sh-p2wpkh), and legacy (p2pkh) addresses
